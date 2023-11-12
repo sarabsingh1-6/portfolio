@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@next/font": "^13.5.2",
+    "@ramonak/react-progress-bar": "^5.0.3",
+    "@sendgrid/mail": "^7.7.0",
+    "autoprefixer": "10.4.16",
+    "axios": "^1.5.1",
+    "devicon": "^2.15.1",
+    "next": "13.5.2",
+    "postcss": "8.4.30",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-particles": "^2.12.2",
+    "react-social-icons": "^6.4.0",
+    "react-tsparticles": "^2.12.2",
+    "tailwindcss": "3.3.3",
+    "tsparticles": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "typescript": "5.2.2"
+  }
+}
