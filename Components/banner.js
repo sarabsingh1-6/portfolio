@@ -1,5 +1,7 @@
 import Image from "next/image";
-import bannerImage from "../assets/main_page_bg_rspack.webp";
+// import bannerImage from "../assets/main_page_bg_rspack.webp";
+import bannerImage from "../assets/banner.png";
+
 import { Particle } from "./particle";
 
 const Banner = () => {

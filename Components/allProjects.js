@@ -22,15 +22,16 @@ function AllProjects() {
               </div>
 
               <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">
-                Weather Forecast
+                <a href="https://weatherforecastapplicationreact.netlify.app/" target="__blank">Weather Forecast</a>
+                
               </h4>
 
               <div class="mt-4">
                 <span class="text-teal-600 text-md font-semibold">
-                  4/5 ratings{" "}
+                  {/* 4/5 ratings{" "} */}
                 </span>
                 <span class="text-sm text-gray-600">
-                  (based on 234 ratings)
+                  {/* (based on 234 ratings) */}
                 </span>
               </div>
             </div>
@@ -52,21 +53,20 @@ function AllProjects() {
               </div>
 
               <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">
-                Password Generator
+                <a href="https://reactpasswordgenerator.web.app/" target="__blank">Password Generator</a>
               </h4>
 
               <div class="mt-4">
                 <span class="text-teal-600 text-md font-semibold">
-                  4/5 ratings{" "}
+                  {/* 4/5 ratings{" "} */}
                 </span>
                 <span class="text-sm text-gray-600">
-                  (based on 234 ratings)
+                  {/* (based on 234 ratings) */}
                 </span>
               </div>
             </div>
           </div>
         </div>
-
         
       </div>
     </div>

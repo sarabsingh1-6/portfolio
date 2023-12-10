@@ -1,10 +1,13 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from "next/image";
+import logo from "../assets/logo.png";
+import logoblack from "../assets/logoBlack.png"
 
 const navigation = [
   { name: 'Technology', href: '#technology', current: true },
-  { name: 'Projects', href: '#', current: false },
+  { name: 'Projects', href: '#projects', current: false },
   { name: 'About', href: '#about', current: false },
   { name: 'Contact', href: '#contact', current: false },
 ]
@@ -40,6 +43,7 @@ export default function Navbar() {
                     alt="Your Company"
                   /> */}
                   <h1 className='font-extrabold'> Sarab </h1>
+                  {/* <Image src={logoblack}/> */}
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-4">
